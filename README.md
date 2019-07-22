@@ -14,7 +14,7 @@ A Gatsby theme for creating a blog.
 ### Manually add to your site
 
 ```sh
-npm install --save gatsby-theme-blog
+npm install --save gatsby-foundation-theme
 ```
 
 ## Usage
@@ -25,3 +25,7 @@ npm install --save gatsby-theme-blog
 | ------------- | ---------------- | --------------------------- |
 | `basePath`    | `/`              | Root url for all blog posts |
 | `contentPath` | `/content/posts` | Location of blog posts      |
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
