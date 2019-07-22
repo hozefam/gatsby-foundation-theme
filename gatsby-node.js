@@ -53,4 +53,10 @@ exports.onPreBootstrap = ({ store }, options) => {
   if (!fs.existsSync(dir)) {
     mkdirp.sync(dir);
   }
+
+  fs.writeFile(path.join(dir, 'first-blog.mdx'), '# My First Blog', function(
+    err
+  ) {
+    if (err) throw err;
+  });
 };
